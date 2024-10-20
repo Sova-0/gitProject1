@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'TT Lakes-Regular';
-    src: url('./TTLakes/TTLakes//TTLakes/TTLakes-Regular.eot');
+    src: url('TTLakes/TTLakes//TTLakes/TTLakes-Regular.eot');
     src: local('TT Lakes Regular'), local('/TTLakes/TTLakes-Regular'),
-        url('./TTLakes/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./TTLakes/TTLakes-Regular.woff') format('woff'),
-        url('./TTLakes/TTLakes-Regular.ttf') format('truetype');
+        url('TTLakes/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes/TTLakes-Regular.woff') format('woff'),
+        url('TTLakes/TTLakes-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes-Bold';
-    src: url('./TTLakes/TTLakes-Bold.eot');
+    src: url('TTLakes/TTLakes-Bold.eot');
     src: local('TT Lakes Bold'), local('/TTLakes/TTLakes-Bold'),
-        url('./TTLakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./TTLakes/TTLakes-Bold.woff') format('woff'),
-        url('./TTLakes/TTLakes-Bold.ttf') format('truetype');
+        url('TTLakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes/TTLakes-Bold.woff') format('woff'),
+        url('TTLakes/TTLakes-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -92,28 +92,28 @@ body {
 }
 
 .menuIcon::before {
-    background-image: url(./image/menu_icon.svg);
+    background-image: url(image/menu_icon.svg);
 }
 
 .tools::before {
-    background-image: url(./image/tools.svg);
+    background-image: url(image/tools.svg);
 }
 
 .searchIcon::before {
-    background-image: url(./image/search_icon.svg);
+    background-image: url(image/search_icon.svg);
     left: -9px;
 }
 
 .phone::before {
-    background-image: url(./image/phone.svg);
+    background-image: url(image/phone.svg);
 }
 
 .message::before {
-    background-image: url(./image/message.svg);
+    background-image: url(image/message.svg);
 }
 
 .profile::before {
-    background-image: url(./image/profile.svg);
+    background-image: url(image/profile.svg);
 }
 
 .header__column-logo .action-button {
