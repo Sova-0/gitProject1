@@ -91,28 +91,28 @@ body {
     display: none;
 }
 
-.menuIcon::before {
+.icon--menuIcon::before {
     background-image: url(image/menu_icon.svg);
 }
 
-.tools::before {
+.icon--tools::before {
     background-image: url(image/tools.svg);
 }
 
-.searchIcon::before {
+.icon--searchIcon::before {
     background-image: url(image/search_icon.svg);
     left: -9px;
 }
 
-.phone::before {
+.icon--phone::before {
     background-image: url(image/phone.svg);
 }
 
-.message::before {
+.icon--message::before {
     background-image: url(image/message.svg);
 }
 
-.profile::before {
+.icon--profile::before {
     background-image: url(image/profile.svg);
 }
 
@@ -192,7 +192,7 @@ body {
     top: 10px;
     left: 10px;
 }
-.main__title-buttons .searchIcon::before {
+.main__title-buttons .icon--searchIcon::before {
     left: 12px;
 }
 
@@ -215,7 +215,7 @@ body {
     border-radius: 8px;
 }
 
-.nav {
+.nav__list {
     font-family: 'TT Lakes-Regular';
     display: flex;
     overflow: auto;
